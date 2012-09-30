@@ -1,0 +1,8 @@
+# Die folgenden Dateien werden von GIT nicht versioniert
+ActionRPG
+
+# Auslagerungsdateien von vim
+*/.*.swp
+
+# Bilddateien sollen auch nicht erfasst werden
+*/*.png

@@ -1,0 +1,6 @@
+<world id="world_01">
+	<entity class="1">
+		<x>-100</x>
+		<y>-100</y>
+	</entity>
+</world>

@@ -1,0 +1,18 @@
+# Die Map-XML-Dateien sind nicht komplett XML-kompatibel
+# Als Kommentare sind nur # zugelassen !
+# Geöffnete Tags müssen wieder mit einem kompletten Endtag geschlossen werden,
+# die verkürzte Form /> am Ende ist NICHT zulässig!
+<world id="world_01">
+	<entity class="1">
+		<x>10</x>
+		<y>10</y>
+	</entity>
+	<entity class="2">
+		<x>30</x>
+		<y>30</y>
+	</entity>
+	<entity class="1">
+		<x>900</x>
+		<y>500</y>
+	</entity>
+</world>
