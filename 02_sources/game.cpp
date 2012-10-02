@@ -32,7 +32,9 @@ arpg::Game::Game(Window* app)
 
 void arpg::Game::checkSector(void* UserData)
 {
-//	sf::Lock Lock(GlobalMutex) ;
+	//TODO:	-	Thread schlanker machen
+	//			-	diese Methode nicht als Thread benützen, sondern nur
+	//				die loadSector und unloadSecotor-Methoden in Threads laufen lassen
 
 	Game* game = static_cast<Game*>(UserData) ;
 
