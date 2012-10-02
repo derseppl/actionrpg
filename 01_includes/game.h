@@ -25,7 +25,7 @@ namespace arpg {
 			int sectorSize ;
 			int wrapperSize ;
 			bool mapIsLoadingThread ;
-			int loadSector(string sectorName, string world) ;
+			int loadSector(Sector sector, string world) ;
 			int unloadSector(string sectorName) ;
 			static void checkSector(void* UserData) ;
 

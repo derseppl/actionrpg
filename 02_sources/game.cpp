@@ -66,7 +66,7 @@ void arpg::Game::checkSector(void* UserData)
 		if (found == false) {
 			// WICHTIG: Beim Hinzufügen muss zum Sektor x + 1 gerechnet werden, ansonsten wird der falsche Sektor angenommen
 			game->sectorLoaded.push_back(Sector(game->sectorToLoad[i].getX()+1, game->sectorToLoad[i].getY()+1, game->sectorSize)) ;
-			game->loadSector(Sector(game->sectorToLoad[i].getX()+1, game->sectorToLoad[i].getY()+1, game->sectorSize).toString(), game->world) ;
+			game->loadSector(Sector(game->sectorToLoad[i].getX()+1, game->sectorToLoad[i].getY()+1, game->sectorSize), game->world) ;
 		}
 	}
 
@@ -102,8 +102,10 @@ int arpg::Game::unloadSector(string sectorName)
 	return true ;
 }
 
-int arpg::Game::loadSector(string sectorName, string world)
+int arpg::Game::loadSector(Sector sector, string world)
 {
+	string sectorName = sector.toString() ;
+
 	// Die Map-Informationen werden aus einer xml-Datei eingelesen
 	string filepath = "./03_maps/" + world + "/" + sectorName + ".xml" ;
 
@@ -115,7 +117,7 @@ int arpg::Game::loadSector(string sectorName, string world)
 
 	// sämtliche Entities des Sektors durchgehen
 	for(int i = 0; i < entities.size(); i++) {
-		elements.push_back(Entity( strToInt(entities[i].getNode("x").getValue()), strToInt(entities[i].getNode("y").getValue()), sectorName, strToInt(entities[i].getAttribute("class")) )) ;
+		elements.push_back(Entity( strToInt(entities[i].getNode("x").getValue())+sector.getX(), strToInt(entities[i].getNode("y").getValue())+sector.getY(), sectorName, strToInt(entities[i].getAttribute("class")) )) ;
 //		Debug().message( entities[i].getNode("x").getValue() ) ;
 	}
 

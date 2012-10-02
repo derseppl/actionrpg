@@ -1,0 +1,290 @@
+<world id="world_01">
+<entity class="1">
+<x>0</x>
+<y>0</y>
+</entity>
+<entity class="1">
+<x>100</x>
+<y>0</y>
+</entity>
+<entity class="1">
+<x>200</x>
+<y>0</y>
+</entity>
+<entity class="1">
+<x>300</x>
+<y>0</y>
+</entity>
+<entity class="1">
+<x>400</x>
+<y>0</y>
+</entity>
+<entity class="1">
+<x>500</x>
+<y>0</y>
+</entity>
+<entity class="1">
+<x>600</x>
+<y>0</y>
+</entity>
+<entity class="1">
+<x>700</x>
+<y>0</y>
+</entity>
+<entity class="1">
+<x>800</x>
+<y>0</y>
+</entity>
+<entity class="1">
+<x>900</x>
+<y>0</y>
+</entity>
+<entity class="1">
+<x>1000</x>
+<y>0</y>
+</entity>
+<entity class="1">
+<x>1100</x>
+<y>0</y>
+</entity>
+<entity class="1">
+<x>1200</x>
+<y>0</y>
+</entity>
+<entity class="1">
+<x>1300</x>
+<y>0</y>
+</entity>
+<entity class="1">
+<x>1400</x>
+<y>0</y>
+</entity>
+<entity class="1">
+<x>1500</x>
+<y>0</y>
+</entity>
+<entity class="1">
+<x>1600</x>
+<y>0</y>
+</entity>
+<entity class="1">
+<x>1700</x>
+<y>0</y>
+</entity>
+<entity class="1">
+<x>1800</x>
+<y>0</y>
+</entity>
+<entity class="1">
+<x>0</x>
+<y>100</y>
+</entity>
+<entity class="1">
+<x>1900</x>
+<y>100</y>
+</entity>
+<entity class="1">
+<x>0</x>
+<y>200</y>
+</entity>
+<entity class="1">
+<x>1900</x>
+<y>200</y>
+</entity>
+<entity class="1">
+<x>0</x>
+<y>300</y>
+</entity>
+<entity class="1">
+<x>1900</x>
+<y>300</y>
+</entity>
+<entity class="1">
+<x>0</x>
+<y>400</y>
+</entity>
+<entity class="1">
+<x>1900</x>
+<y>400</y>
+</entity>
+<entity class="1">
+<x>0</x>
+<y>500</y>
+</entity>
+<entity class="1">
+<x>1900</x>
+<y>500</y>
+</entity>
+<entity class="1">
+<x>0</x>
+<y>600</y>
+</entity>
+<entity class="1">
+<x>1900</x>
+<y>600</y>
+</entity>
+<entity class="1">
+<x>0</x>
+<y>700</y>
+</entity>
+<entity class="1">
+<x>1900</x>
+<y>700</y>
+</entity>
+<entity class="1">
+<x>0</x>
+<y>800</y>
+</entity>
+<entity class="1">
+<x>1900</x>
+<y>800</y>
+</entity>
+<entity class="1">
+<x>0</x>
+<y>900</y>
+</entity>
+<entity class="1">
+<x>1900</x>
+<y>900</y>
+</entity>
+<entity class="1">
+<x>0</x>
+<y>1000</y>
+</entity>
+<entity class="1">
+<x>1900</x>
+<y>1000</y>
+</entity>
+<entity class="1">
+<x>0</x>
+<y>1100</y>
+</entity>
+<entity class="1">
+<x>1900</x>
+<y>1100</y>
+</entity>
+<entity class="1">
+<x>0</x>
+<y>1200</y>
+</entity>
+<entity class="1">
+<x>1900</x>
+<y>1200</y>
+</entity>
+<entity class="1">
+<x>0</x>
+<y>1300</y>
+</entity>
+<entity class="1">
+<x>1900</x>
+<y>1300</y>
+</entity>
+<entity class="1">
+<x>0</x>
+<y>1400</y>
+</entity>
+<entity class="1">
+<x>1900</x>
+<y>1400</y>
+</entity>
+<entity class="1">
+<x>0</x>
+<y>1500</y>
+</entity>
+<entity class="1">
+<x>1900</x>
+<y>1500</y>
+</entity>
+<entity class="1">
+<x>0</x>
+<y>1600</y>
+</entity>
+<entity class="1">
+<x>1900</x>
+<y>1600</y>
+</entity>
+<entity class="1">
+<x>0</x>
+<y>1700</y>
+</entity>
+<entity class="1">
+<x>1900</x>
+<y>1700</y>
+</entity>
+<entity class="1">
+<x>0</x>
+<y>1900</y>
+</entity>
+<entity class="1">
+<x>100</x>
+<y>1900</y>
+</entity>
+<entity class="1">
+<x>200</x>
+<y>1900</y>
+</entity>
+<entity class="1">
+<x>300</x>
+<y>1900</y>
+</entity>
+<entity class="1">
+<x>400</x>
+<y>1900</y>
+</entity>
+<entity class="1">
+<x>500</x>
+<y>1900</y>
+</entity>
+<entity class="1">
+<x>600</x>
+<y>1900</y>
+</entity>
+<entity class="1">
+<x>700</x>
+<y>1900</y>
+</entity>
+<entity class="1">
+<x>800</x>
+<y>1900</y>
+</entity>
+<entity class="1">
+<x>900</x>
+<y>1900</y>
+</entity>
+<entity class="1">
+<x>1000</x>
+<y>1900</y>
+</entity>
+<entity class="1">
+<x>1100</x>
+<y>1900</y>
+</entity>
+<entity class="1">
+<x>1200</x>
+<y>1900</y>
+</entity>
+<entity class="1">
+<x>1300</x>
+<y>1900</y>
+</entity>
+<entity class="1">
+<x>1400</x>
+<y>1900</y>
+</entity>
+<entity class="1">
+<x>1500</x>
+<y>1900</y>
+</entity>
+<entity class="1">
+<x>1600</x>
+<y>1900</y>
+</entity>
+<entity class="1">
+<x>1700</x>
+<y>1900</y>
+</entity>
+<entity class="1">
+<x>1800</x>
+<y>1900</y>
+</entity>
+</world>
